@@ -1,3 +1,7 @@
-.letrica{
-    font-family: 'Iceland', cursive; 
+h1,h2,h3,h4,h5,h6,div{
+    font-family: Iceland, cursive;
+}
+p{
+    font-family: Iceland, cursive;
+    font-size: 25px;
 }

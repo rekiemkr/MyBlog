@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoPaginaService } from '../../services/info-pagina.service';
 
 @Component({
   selector: 'app-header',
@@ -6,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  public titulo:string;
-  constructor() {
-    this.titulo = "Blog de Cristian";
+    constructor( public _service:InfoPaginaService) {
    }
 
   ngOnInit() {

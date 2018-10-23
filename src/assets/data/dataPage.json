@@ -1,0 +1,14 @@
+{
+    "titulo" : "Blog de Cristian",
+    "email" : "cfelipevargas97@gmail.com",
+    "nombre_corto" : "Cristian",
+    "facebook" : "https://www.fb.com/codeandlinux",
+    "twitter" : "https://www.twitter.com/",
+    "instagram" : "https://www.instagram.com/",
+    "tumblr": "https://www.tumblr.com",
+    "pages" : [
+        "Inicio",
+        "Blog",
+        "Contacto"
+    ]
+}
