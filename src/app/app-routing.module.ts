@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
         { path: 'home', component: HomeComponent},
         { path: 'contact', component: ContactComponent},
         { path: 'blog', component: BlogComponent},
-        { path: 'blog-post', component: BlogPostComponent},
+        { path: 'blogPost', component: BlogPostComponent},
         { path: '**', pathMatch: 'full', component: BlogComponent}
     ];
 
