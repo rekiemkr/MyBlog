@@ -12,6 +12,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { BlogPostComponent } from './pages/blog-post/blog-post.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HttpClient } from 'selenium-webdriver/http';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClient } from 'selenium-webdriver/http';
     BlogComponent,
     ContactComponent,
     BlogPostComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
