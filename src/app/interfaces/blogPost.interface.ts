@@ -1,5 +1,5 @@
 interface BlogPost{
-    Descripcion?: string;
+    descripcion?: string;
     autor?: string;
     fecha?: string;
     imagen?: string;

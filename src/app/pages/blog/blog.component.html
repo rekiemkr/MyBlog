@@ -16,7 +16,7 @@
     </svg>
   </div>
   <section class="ae-container-fluid ae-container-fluid--inner rk-blog" > 
-      <div *ngFor="let bl of _servicio.blog" class="animated fadeIn rk-blog__item">
+      <div *ngFor="let bl of servicio.blog" class="animated fadeIn rk-blog__item">
         <div class="post-img rk-landscape-alt rk-tosquare1" [ngStyle]="{'background-image': 'url('+bl.imagen+')'}">
           <div class="item-meta">
             <p><a routerLink="/blogPost" class="arrow-button">Read More<span class="arrow-cont">
@@ -28,7 +28,7 @@
         <div class="blog-info">
           <h2 class="blog-info__title"> <a routerLink="blogPost"><strong>{{bl.titulo}}</strong></a></h2>
           <h5 class="blog-info__author">By <a routerLink="blogPost" class="ae-u-bolder">{{bl.autor}}</a></h5>
-          <p class="blog-info__excerpt">{{bl.Descripcion}}</p>
+          <p class="blog-info__excerpt">{{bl.descripcion}}</p>
         </div>
         <div class="blog-meta"><a routerLink="blogPost" class="ae-u-bolder blog-meta__comments">3 Comments</a><span class="ae-kappa ae-u-bold blog-meta__date">{{bl.fecha}}</span><a routeLink="blog-post" class="arrow-button blog-meta__read-more">Read More<span class="arrow-cont">
               <svg>

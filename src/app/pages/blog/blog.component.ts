@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InfoPaginaService } from 'src/app/services/info-pagina.service';
+import { BlogPostService } from 'src/app/services/blog-post-service';
 
 @Component({
   selector: 'app-blog',
@@ -8,7 +8,7 @@ import { InfoPaginaService } from 'src/app/services/info-pagina.service';
 })
 export class BlogComponent implements OnInit {
 
-  constructor(public _servicio:InfoPaginaService) {
+  constructor(public servicio:BlogPostService) {
    }
 
   ngOnInit() {

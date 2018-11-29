@@ -71,3 +71,21 @@
     -webkit-transform-origin: center bottom;
     transform-origin: center bottom;
   }
+
+
+  h1,h2,h3,h4,h5,h6,div{
+    font-family: Iceland, cursive;
+    color: black
+  }
+
+  p{
+    font-family: Iceland, cursive;
+    font-size: 25px;
+  }
+
+  button{
+    text-align: center;
+    width: 200px;
+    font-size: 25px;
+    font-family: Iceland, cursive;
+  }

@@ -11,15 +11,15 @@
       <use xlink:href="assets/img/symbols.svg#bar"></use>
     </svg>
   </label>
-  <div class="ae-container-fluid rk-topbar">
-    <h1 class="rk-logo title"><a routerLink="home">{{_servicio.info.titulo}}<sup>dev</sup></a></h1>
+  <div *ngIf="_service" class="ae-container-fluid rk-topbar">
+    <h1 class="rk-logo title"><a routerLink="home">{{_service.info.titulo}}<sup>dev</sup></a></h1>
     <nav class="rk-navigation">
       <ul class="rk-menu">
-        <li routerLinkActive="active" class="rk-menu__item letrica"><a routerLink="home" class="rk-menu__link">{{_servicio.info.pages[0]}}</a>
+        <li routerLinkActive="active" class="rk-menu__item letrica"><a routerLink="home" class="rk-menu__link">{{_service.info.pages[0]}}</a>
         </li>
-        <li routerLinkActive="active" class=" rk-menu__item letrica"><a routerLink="blog" class="rk-menu__link">{{_servicio.info.pages[1]}}</a>
+        <li routerLinkActive="active" class=" rk-menu__item letrica"><a routerLink="blog" class="rk-menu__link">{{_service.info.pages[1]}}</a>
         </li>
-        <li routerLinkActive="active" class="rk-menu__item letrica"><a routerLink="contact" class="rk-menu__link">{{_servicio.info.pages[2]}}</a>
+        <li routerLinkActive="active" class="rk-menu__item letrica"><a routerLink="contact" class="rk-menu__link">{{_service.info.pages[2]}}</a>
         </li>
       </ul>
       <form class="rk-search">
