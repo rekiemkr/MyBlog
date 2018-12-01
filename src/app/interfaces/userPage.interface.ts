@@ -1,5 +1,5 @@
-interface UserPage{
-    name?: string,
-    username?: string,
-    correo?: string
+interface UserPage {
+  name?: string;
+  username?: string;
+  correo?: string;
 }

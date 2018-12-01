@@ -11,7 +11,7 @@
       <use xlink:href="assets/img/symbols.svg#bar"></use>
     </svg>
   </label>
-  <div *ngIf="_service" class="ae-container-fluid rk-topbar">
+  <div *ngIf="_service.info" class="ae-container-fluid rk-topbar">
     <h1 class="rk-logo title"><a routerLink="home">{{_service.info.titulo}}<sup>dev</sup></a></h1>
     <nav class="rk-navigation">
       <ul class="rk-menu">

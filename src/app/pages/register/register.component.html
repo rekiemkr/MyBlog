@@ -1,25 +1,18 @@
 <br><br><br><br><br><br>
 <div class="ae-grid ae-grid--collapse">
-<div class="animated fadeIn ae-grid__item item-lg-5 letrica form1" >
-    <form formGroup="registerUser" (ngSubmit)="onSubmit()" class="ae-form--full">
-        <h2 class="center-h2">REGISTER</h2>
-        <hr>
-      <input type="text" formControl='name' placeholder="* Full Name" required>
-      <input type="text" formControl="username" placeholder="* Username" required>
-      <input type="email" formControl="email" placeholder="* Email" required>
-      <br>
-      <div class="text-center">
-      <button type="submit" style="margin-left: 30%"> register </button>
-      </div>
-    </form>
-</div>
-<div class="animated fadeIn ae-grid__item item-lg-5 letrica form1">
-    <h2 class="center-h2">INFORMATION</h2>
-    <hr>
-    <div class="center-h2">
-    <input type="text" disabled placeholder="Your name" value="" required>
-    <input type="text" disabled placeholder="Your username" value="" required>
-    <input type="text" disabled placeholder="Your email" value="" required>
+  <div class="animated fadeIn ae-grid__item item-lg-5 letrica form1">
+    <div class="img">
+      <img src="../../../assets/img/register.jpg">
     </div>
-</div>
+  </div>
+  <div class="animated fadeIn ae-grid__item item-lg-5 letrica form1">
+    <form [formGroup]="registerUser" (ngSubmit)="onSubmit()" class="ae-form--full">
+      <h2 class="center-h2">REGISTER</h2>
+      <hr>
+      <input type="text" formControlName='name' placeholder="* Full Name" required>
+      <input type="text" formControlName="username" placeholder="* Username" required>
+      <input type="email" formControlName="email" placeholder="* Email" required><br>
+      <button type="submit" class="btn btn-dark btn-center"> register </button>
+    </form>
+  </div>
 </div>

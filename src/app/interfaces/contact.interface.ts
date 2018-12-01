@@ -1,5 +1,5 @@
-interface Contact{
-    name?:string,
-    message?:string,
-    email?:string
+interface Contact {
+  name?: string;
+  message?: string;
+  email?: string;
 }
